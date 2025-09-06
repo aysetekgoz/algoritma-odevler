@@ -1,0 +1,12 @@
+Binary Search Tree
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Root = 4.
+4'ün solunda 3, sağında ise 6 bulunuyor.
+
+3'ün solunda 1 bulunuyor.
+1'in solunda 0, sağında ise 2 bulunuyor.
+
+6'nın solunda 5, sağında ise 8 bulunuyor.
+8'in solunda 7, sağında 9 bulunuyor.
