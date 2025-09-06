@@ -1,0 +1,57 @@
+Insertion Sort Projesi
+
+[22,27,16,2,18,6]
+
+1.adım: 27 inceleniyor; 22den büyük olduğu için aynı şekilde kalıyor.
+[22,27,16,2,18,6]
+
+2.adım: 16 inceleniyor; 27 ve 22'den küçük olduğu için en başa alıyoruz.
+[16,22,27,2,18,6]
+
+3.adım: 2 inceleniyor; 27, 22 ve 16'dan küçük olduğu için en başa alınıyor.
+[2,16,22,27,18,6]
+
+4.adım: 18 inceleniyor; 27 ve 22'den küçük, 16'dan büyük olduğu için 22 ve 16 arasına alınıyor.
+[2,16,18,22,27,6]
+
+5.adım: 6 inceleniyor; 27, 22, 18 ve 16'dan küçük fakat 2'den büyük olduğu için 16 ve 2 arasına alınıyor.
+[2,6,16,18,22,27]
+
+
+Big-O gösterimi:
+Best-case: O(n)
+Average and Worst case: O(n^2)
+
+Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? 
+[2,6,16,18,22,27] -> Dizinin sıralanmış versiyonu budur ve 18 ortada bulunuyor bundan dolayı average case kapsamına girer.
+
+
+
+
+Selection Sort Projesi
+
+[7,3,5,8,2,9,4,15,6]
+
+1.adım:
+En küçük eleman: 2
+2, ilk elemanla yer değiştirir.
+[2,3,5,8,7,9,4,15,6]
+
+2.adım:
+Kalan dizi: [3,5,8,7,9,4,15,6]
+En küçük eleman: 3
+3 zaten ikinci sırada bulunduğu için yer değiştirmez.
+[2,3,5,8,7,9,4,15,6]
+
+3.adım:
+Kalan dizi: [5,8,7,9,4,15,6]
+En küçük eleman: 4
+4, üçüncü sırada bulunan 5 elemanıyla yer değiştirir.
+[2,3,4,8,7,9,5,15,6]
+
+4.adım: 
+Kalan dizi: [8,7,9,5,15,6]
+En küçük eleman: 5
+5, dördüncü sırada bulunan 8 ile yer değiştirir.
+[2,3,4,5,7,9,8,15,6] -> 4.adım sonunda bu dizi oluşur.
+
